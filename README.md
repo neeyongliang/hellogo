@@ -3,5 +3,5 @@ gogogo
 
 golang 练习手册。
 
-- imooc 慕课网
-- eddycjy 跟着煎鱼学 golang
+- imooc, 慕课网
+- oldboy，老男孩
