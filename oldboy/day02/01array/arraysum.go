@@ -23,4 +23,20 @@ func main() {
 	} else {
 		fmt.Println(v)
 	}
+	fmt.Println("=============================")
+
+	var ages [30]int
+	ages = [30]int{1, 2, 3, 4, 5, 6}
+	fmt.Println(ages)
+	var age2 = [...]int{1, 2, 3, 4}
+	fmt.Println(age2)
+	var age3 = [...]int{1: 80, 90: 2}
+	fmt.Println(age3)
+
+	var a2 = [...][2]int{
+		[2]int{1, 2},
+		[2]int{3, 4},
+		[2]int{5, 6},
+	}
+	fmt.Println(a2)
 }
