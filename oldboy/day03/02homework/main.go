@@ -27,23 +27,15 @@ func main() {
 func dispatchCoin() int {
 	right_coin := 0
 	for _, user := range users {
-		for i := 0; i < len(user); i++ {
-			switch user[i] {
-			case 'e':
+		for _, c := range user {
+			switch c {
+			case 'e', 'E':
 				distribute[user] += 1
-			case 'E':
-				distribute[user] += 1
-			case 'i':
+			case 'i', 'I':
 				distribute[user] += 2
-			case 'I':
-				distribute[user] += 2
-			case 'o':
+			case 'o', 'O':
 				distribute[user] += 3
-			case 'O':
-				distribute[user] += 3
-			case 'u':
-				distribute[user] += 4
-			case 'U':
+			case 'u', 'U':
 				distribute[user] += 4
 			}
 		}
