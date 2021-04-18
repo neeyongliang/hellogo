@@ -138,7 +138,7 @@ func ARPListener(ipmac IPMac, stopNow *bool) {
 			sleepout = 3 * time.Second
 		}
 	}
-	fmt.Printf("end loop...stopNow: %d\n", *stopNow)
+	fmt.Printf("end loop...\n")
 }
 
 func main() {
@@ -157,7 +157,7 @@ func main() {
 		go ARPListener(ipmac, &stopNow)
 	}
 	for {
-		fmt.Println("start main loop....stopNow: %d", stopNow)
+		fmt.Println("start main loop....")
 		if stopNow {
 			ipmacs, err = getIPS()
 			if err != nil {
