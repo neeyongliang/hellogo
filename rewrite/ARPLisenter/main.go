@@ -122,7 +122,7 @@ func ARPListener(ipmac IPMac, stopNow *bool) {
 	fmt.Println("here we go...")
 	packetSource := gopacket.NewPacketSource(handle, handle.LinkType())
 	for packet := range packetSource.Packets() {
-		fmt.Printf("stopNow: %d, device %s\n", *stopNow, device)
+		fmt.Printf("stopNow: %d, device %s\n", stopNow, device)
 		if sleepout != time.Second {
 			time.Sleep(sleepout)
 			sleepout = time.Second
