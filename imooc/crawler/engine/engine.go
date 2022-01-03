@@ -1,8 +1,9 @@
 package engine
 
 import (
-	"gitee.com/wikinee/gogogo/imooc/crawler/fetcher"
 	"log"
+
+	"gitee.com/neeyongliang/gogogo/imooc/crawler/fetcher"
 )
 
 func Run(seeds ...Request) {

@@ -1,4 +1,4 @@
-module gitee.com/wikinee/gogogo/imooc/crawler/fetcher
+module gitee.com/neeyongliang/gogogo/imooc/crawler/fetcher
 
 go 1.13
 

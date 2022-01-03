@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"gitee.com/wikinee/gogogo/imooc/crawler/engine"
-	"gitee.com/wikinee/gogogo/imooc/crawler/model"
+	"gitee.com/neeyongliang/gogogo/imooc/crawler/engine"
+	"gitee.com/neeyongliang/gogogo/imooc/crawler/model"
 )
 
 var ageRe = regexp.MustCompile(`<td><span class="label">年龄：</span>([\d+])岁</td>`)

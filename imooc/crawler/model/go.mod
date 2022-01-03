@@ -1,3 +1,3 @@
-module gitee.com/wikinee/gogogo/imooc/crawler/model
+module gitee.com/neeyongliang/gogogo/imooc/crawler/model
 
 go 1.13

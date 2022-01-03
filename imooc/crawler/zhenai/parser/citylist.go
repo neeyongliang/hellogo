@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"gitee.com/wikinee/gogogo/imooc/crawler/engine"
+	"gitee.com/neeyongliang/gogogo/imooc/crawler/engine"
 )
 
 const CityListRE = `<a href="(http://www.zhenai.com/zhenghun/[0-9a-z]+)" [^>]+>([^<]+)</a>`

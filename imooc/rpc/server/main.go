@@ -4,8 +4,9 @@ import (
 	"log"
 	"net"
 	"net/rpc"
-	"gitee.com/wikinee/gogogo/imooc/rpc"
 	"net/rpc/jsonrpc"
+
+	"gitee.com/neeyongliang/gogogo/imooc/rpc"
 )
 
 func main() {
