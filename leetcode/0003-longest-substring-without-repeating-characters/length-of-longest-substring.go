@@ -19,9 +19,13 @@ func lengthOfLongestSubstring(s string) int {
 			delete(m, s[i-1])
 		}
 		for end+1 < n && m[s[end+1]] == 0 {
-			m[s[end+1]]++
+			// 没有出现在 map 集合中的数字是 0， 否则置为 1
+			m[s[end+1]] = m[s[end+1]] + 1
 			end++
+			fmt.Println(m)
 		}
+		fmt.Println(end, i)
+		fmt.Println(m)
 		maxLen = max(maxLen, end-i+1)
 	}
 	return maxLen
